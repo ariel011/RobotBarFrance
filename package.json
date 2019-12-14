@@ -4,7 +4,6 @@
   "description": "Robot Bar Application",
   "main": "app.js",
   "scripts": {
-    "build": "webpack --config webpack.conf.js",
     "client-install": "npm install --prefix client",
     "start": "node app.js",
     "server": "nodemon app.js",
@@ -27,5 +26,13 @@
   "devDependencies": {
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariel011/mevn_stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ariel011/mevn_stack/issues"
+  },
+  "homepage": "https://github.com/ariel011/mevn_stack#readme"
 }
